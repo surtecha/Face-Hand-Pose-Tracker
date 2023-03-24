@@ -37,7 +37,7 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
         #Pose landmarks
         mp_draw.draw_landmarks(image, results.pose_landmarks, mp_holistic.POSE_CONNECTIONS)
 
-        cv2.imshow('Raw Webcam Feed', image)
+        cv2.imshow('Webcam Feed', image)
 
         if cv2.waitKey(10) & 0xFF == ord('q'):
             break
