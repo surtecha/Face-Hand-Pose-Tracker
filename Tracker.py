@@ -13,7 +13,6 @@ with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=
 
         image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         results = holistic.process(image)
-        #print(results.face_landmarks)
 
         image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
