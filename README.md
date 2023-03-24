@@ -5,6 +5,9 @@
   <img src="https://user-images.githubusercontent.com/91011302/227481968-2b222e5e-af59-43bc-8cf1-4c7e045e87ca.PNG" width="250">
 </p>
 
+<p align="center">
+  <b>Live Tracking</b>
+</p>
 
 This basic project uses **OpenCV** and **MediaPipe** to detect hand and face landmarks in real-time video streams and images. It also provides pose detection functionality.
 
