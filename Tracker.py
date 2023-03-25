@@ -1,3 +1,4 @@
+#Essential libraries 
 import cv2
 import mediapipe as mp
 
@@ -6,6 +7,7 @@ mp_holistic = mp.solutions.holistic
 
 cap = cv2.VideoCapture(0)
 
+#Creating instance of Holisitic model from mediapipe and tracking and detection confidence threshold
 with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
 
     while cap.isOpened():
