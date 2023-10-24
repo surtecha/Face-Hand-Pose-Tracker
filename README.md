@@ -13,12 +13,9 @@ This basic project uses **OpenCV** and **MediaPipe** to detect hand and face lan
 
 The application will open a window displaying the real-time video stream. The **hand** landmarks, **face** landmarks and **pose** of the person in the video stream will be displayed in real-time.
 
-This basic functionality can be used to further implement more complex ideas sucha as gesture based controllers and moany more.
+This basic functionality can be used to further implement more complex ideas such as gesture based controllers and many more.
 
 This program is made possible by the following open-source libraries and models:
 
 * OpenCV
 * MediaPipe
-* MediaPipe Hand Landmark Model
-* MediaPipe Face Landmark Model
-* MediaPipe Pose Landmark Model
